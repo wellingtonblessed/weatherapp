@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+.loader{
+	height:100%
+}
+
+.city {
+	color: #fff;
+    font-size: 30px;
+    font-family: "Roboto",UILanguageFont,Arial,sans-serif;
+    font-weight: 200;
+    text-align: left;
+    padding: 10px;
+}
+
+.error {
+	color: #fff;
+    font-size: 30px;
+    font-family: "Roboto",UILanguageFont,Arial,sans-serif;
+    font-weight: 200;
+    text-align: center;
+    padding: 10px;
+}
+
+.errorBox {
+	background: rgba(255, 255, 255, 0.15);
+	margin-top:200px;
+	padding-bottom:30px;
+}
+
+.refresh{
+	float: right;
+    height: 50px;
+}
+
+.ref-button {
+	text-align:center;
+}
+
+.table-icons{
+    height: 50px;
+}
+
+.temp {
+	color: #fff;
+    font-size: 90px;
+    font-family: "Roboto",UILanguageFont,Arial,sans-serif;
+    font-weight: 300;
+	margin-top:-30px;
+}
+
+.temps {
+	color: #fff;
+    font-size: 35px;
+    font-family: "Roboto",UILanguageFont,Arial,sans-serif;
+    font-weight: lighter;
+}
+
+.outlook {
+	color: #fff;
+    font-size: 40px;
+    font-family: "Roboto",UILanguageFont,Arial,sans-serif;
+    font-weight: lighter;
+	margin-top:-25px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 5s linear;
+  height: 100px;
+  margin-top:200px
+}
+
+.table-responsive {
+	color: #fff;
+    font-size: 30px;
+    font-family: "Roboto",UILanguageFont,Arial,sans-serif;
+    font-weight: 200;
+    text-align: left;
+    padding: 10px;
+	margin-top:150px
+}
+table>tbody>tr {
+	background: rgba(255, 255, 255, 0.15);
+	margin-top:5px
+}
+@media screen and (max-width: 767px){
+	.city {
+		font-size: 20px;
+		padding: 10px;
+	}
+	
+	.error {
+		font-size: 20px;
+	}
+	
+	.temp {
+		font-size: 40px;
+		margin-top:0
+	}
+	
+	.temps {
+		font-size: 17px;
+	}
+	
+	.outlook {
+		font-size: 25px;
+		margin-top:0
+	}
+	
+	.head {
+		margin-top:30px;
+	}
+	
+	.bottom-pad {
+		margin-bottom:30px;
+	}
+	
+	.table-responsive {
+		font-size: 25px;
+	}
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

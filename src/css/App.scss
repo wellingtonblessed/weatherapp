@@ -1,0 +1,134 @@
+$font-color:#fff;
+$main-font:"Roboto",UILanguageFont,Arial,sans-serif;
+$font-weight:lighter;
+
+table{
+	tbody{
+		tr{
+			background: rgba(255, 255, 255, 0.15);
+			margin-top:5px;
+		}
+	}
+}
+
+.table-responsive {
+	color: $font-color;
+    font-size: 30px;
+    font-family: $main-font;
+    font-weight: 200;
+    text-align: left;
+    padding: 10px;
+	margin-top:150px
+}
+
+.App {
+  text-align: center;
+}
+
+.loader{
+	height:100%
+}
+
+.city {
+	color: $font-color;
+    font-size: 30px;
+    font-family: $main-font;
+    font-weight: 200;
+    text-align: left;
+    padding: 10px;
+}
+
+.error {
+	color: $font-color;
+    font-size: 30px;
+    font-family: $main-font;
+    font-weight: 200;
+    text-align: center;
+    padding: 10px;
+}
+
+.errorBox {
+	background: rgba(255, 255, 255, 0.15);
+	margin-top:200px;
+	padding-bottom:30px;
+}
+
+.refresh{
+	float: right;
+    height: 50px;
+}
+
+.table-icons{
+    height: 50px;
+}
+
+.temp {
+	color: $font-color;
+    font-size: 90px;
+    font-family: $main-font;
+    font-weight: 300;
+	margin-top:-30px;
+}
+
+.temps {
+	color: $font-color;
+    font-size: 35px;
+    font-family: $main-font;
+    font-weight:$font-weight;
+}
+
+.outlook {
+	color: $font-color;
+    font-size: 40px;
+    font-family: $main-font;
+    font-weight:$font-weight;
+	margin-top:-25px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 5s linear;
+  height: 100px;
+  margin-top:200px
+}
+
+@media screen and (max-width: 767px){
+	.city {
+		font-size: 20px;
+		padding: 10px;
+	}
+	
+	.error {
+		font-size: 20px;
+	}
+	
+	.temp {
+		font-size: 40px;
+		margin-top:0
+	}
+	
+	.temps {
+		font-size: 17px;
+	}
+	
+	.outlook {
+		font-size: 25px;
+		margin-top:0
+	}
+	
+	.head {
+		margin-top:30px;
+	}
+	
+	.bottom-pad {
+		margin-bottom:30px;
+	}
+	
+	.table-responsive {
+		font-size: 25px;
+	}
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
